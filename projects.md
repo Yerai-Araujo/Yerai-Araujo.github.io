@@ -9,4 +9,4 @@ permalink: /projects/
 ## 📂 Spring Security project
 - Building an **E-commerce** and securing it with Spring Security.
 - Technologies: **Java, Spring and SQL** <br>
-[More information about this project](projects/spring_security_project)
+[More information about this project](https://yerai-araujo.github.io/projects/spring_security_project)

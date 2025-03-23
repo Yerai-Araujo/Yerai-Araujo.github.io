@@ -3,8 +3,12 @@ layout: home
 title: "Welcome to My Portfolio"
 ---
 
+<p align="right">
+  <img src="/assets/images/my_cv_img.jpg" alt="Profile Picture" style="width: 150px; border-radius: 50%;">
+</p>  
+
 # Hello, I'm Yerai Araujo 👋
-I'm a **Software Engineer** passionate about building scalable data solutions.
+I'm a **Software Engineer** passionate about creating software.   
 
 # About Me
 🎓 I have a degree in Software Engineering from the Polytechnic University of Madrid.

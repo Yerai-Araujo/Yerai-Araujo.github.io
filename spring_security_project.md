@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Spring security project
-permalink: /projects/spring_security_project/
+permalink: /spring_security_project/
 ---
 
 # Spring security project
@@ -10,6 +10,8 @@ permalink: /projects/spring_security_project/
 This project is about a restaurant where we can buy meals.  
 The goal of this project is to learn how to secure an application using Spring Security.  
 Spring Security help us write less code to achieve one of the most critical aspects of an application: security.  
+
+## [Project Repository](https://github.com/Yerai-Araujo/SpringSecurity_E-commerce)
 
 ## Project architecture
 The application we are going to develop consists of simple functionalities, since the goal of this project is to develop  
@@ -28,6 +30,7 @@ The application code is divided into the following packages:
 - Repositories: Contains the logic to map the classes in the database.  
 - Services: Contains the backend logic.  
 
+The following image shows the Entity Relationship Diagram:  
 ![Entity Relationship Diagram](/assets/images/ER_diagrama.PNG)  
 
 To implement the authentication process, a custom filter has been created to add the functionality to generate a JWT (JSON Web Token) and assign it  
