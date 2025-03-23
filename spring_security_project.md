@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Spring security project
-permalink: /projects/spring_security_project/
+permalink: /spring_security_project/
 ---
 
 # Spring security project
