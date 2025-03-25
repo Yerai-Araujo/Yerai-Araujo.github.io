@@ -1,0 +1,37 @@
+#root {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  align-items: center; /* Aligns items vertically at the same height */
+  justify-content: space-between; /* Adds space between the elements */
+  gap: 400px; /* Adds space between the elements */
+  margin-top: 20px;
+}
+
+.header h1 {
+  margin: 0; /* Removes default margin from the h1 */
+}
+
+.profile-picture {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.content {
+  max-width: 800px; /* Constrain the content width */
+  margin: 0 auto; /* Center the content horizontally */
+  text-align: left; /* Align text to the left */
+}
+
+.content h2 {
+  margin-top: 20px;
+}
+
+.content p {
+  line-height: 1.6; /* Improve readability */
+}

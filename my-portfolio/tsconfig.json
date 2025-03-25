@@ -1,0 +1,12 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "strict": true, // Enables all strict type-checking options
+    "noImplicitAny": true, // Disallows variables with an implicit 'any' type
+    "strictNullChecks": true // Ensures null and undefined are handled explicitly
+  }
+}
