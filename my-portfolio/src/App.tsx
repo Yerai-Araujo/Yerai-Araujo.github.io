@@ -6,7 +6,7 @@ function App() {
     <>
       <div className='header'>
         <h1>Yerai Araujo</h1>
-        <img src="src/assets/images/my_cv_img.jpg" alt="Profile Picture" className="profile-picture" />
+        <img src="/my-portfolio/public/assets/images/my_cv_img.jpg" alt="Profile Picture" className="profile-picture" />
       </div>
       <div className='content'>
         <h2>About me</h2>
