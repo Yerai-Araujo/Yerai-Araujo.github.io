@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 import ProjectsPage from './ProjectsPage.tsx';
+import SpringSecurityProject from './SpringSecurityProject.tsx';
 import './App.css';
 
 function App() {
@@ -42,6 +43,8 @@ function App() {
         />
         {/* Projects Page */}
         <Route path="/projects" element={<ProjectsPage />} />
+        {/* Spring Security Project Page */}
+        <Route path="/projects/spring_security_project" element={<SpringSecurityProject />} />
       </Routes>
     </Router>
   );
