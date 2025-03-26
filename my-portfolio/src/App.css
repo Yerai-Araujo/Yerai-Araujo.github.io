@@ -1,8 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif; /* Use a clean, professional font */
+  background-color: #f0f4f8; /* Light blue background for a formal look */
+  color: #333; /* Dark gray text for readability */
+}
+
 #root {
   max-width: 960px;
   margin: 0 auto;
   padding: 0;
   text-align: center;
+  /*background-color: #ffffff; /* White background for content */
+  /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
+  /*border-radius: 8px; /* Rounded corners for a modern look */
 }
 
 .header {
@@ -11,27 +22,45 @@
   justify-content: space-between; /* Adds space between the elements */
   gap: 400px; /* Adds space between the elements */
   margin-top: 20px;
+  margin-bottom: 20px; /* Add spacing below the header */
+  padding: 10px 20px;
 }
 
 .header h1 {
   margin: 0; /* Removes default margin from the h1 */
+  font-size: 2.4rem; /* Adjust font size for better readability */
 }
 
 .profile-picture {
   width: 150px;
   border-radius: 50%;
+  border: 3px solid #ffffff; /* Add a white border around the image */
 }
 
 .content {
   max-width: 800px; /* Constrain the content width */
   margin: 0 auto; /* Center the content horizontally */
   text-align: left; /* Align text to the left */
+  padding: 20px;
 }
 
 .content h2 {
   margin-top: 20px;
+  color: #4a4a4a; /* Professional grey color */
+  border-bottom: 2px solid #4a4a4a; /* Match the grey color for the bottom border */
+  padding-bottom: 5px;
 }
 
 .content p {
   line-height: 1.6; /* Improve readability */
+  margin-bottom: 20px; /* Add spacing between paragraphs */
+}
+
+.content ul {
+  padding-left: 20px; /* Indent list items */
+  margin-bottom: 20px;
+}
+
+.content li {
+  margin-bottom: 10px; /* Add spacing between list items */
 }
