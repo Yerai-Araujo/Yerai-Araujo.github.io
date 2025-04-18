@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 import ProjectsPage from './ProjectsPage.tsx';
 import SpringSecurityProject from './SpringSecurityProject.tsx';
 import './App.css';
+import MicroservicesDockerProject from './MicroservicesDockerProject.tsx';
 
 function App() {
   return (
@@ -20,10 +21,8 @@ function App() {
               <p>
                 💻 I am a Software Engineer passionate about software development.<br />
                 🎓 I have a degree in Software Engineering from the Polytechnic University of Madrid.<br />
-                🔍 Looking for job opportunities.<br />
-                🛠️ Skills: Java, SQL, Spring, Python, TypeScript, JavaScript, React, Html and Css.<br />
-                I have work experience in web application development using technologies such as Spring, React and SQL.<br />
-                I have been working almost a year as a Junior Java Developer in a company.<br />
+                🛠️ Skills: Java, SQL, Spring, Python, C, JavaScript, React, Html and Css.<br />
+                I have been working almost a year as a Junior Java Backend Developer in a company.<br />
                 I am a fast learner and I am always looking for new challenges to improve my skills.
               </p>
               <h2>Projects</h2>
@@ -45,6 +44,8 @@ function App() {
         <Route path="/projects" element={<ProjectsPage />} />
         {/* Spring Security Project Page */}
         <Route path="/projects/spring_security_project" element={<SpringSecurityProject />} />
+        {/* Microservices Docker Project Page */}
+        <Route path="/projects/microservices_docker_project" element={<MicroservicesDockerProject />} />
       </Routes>
     </Router>
   );
